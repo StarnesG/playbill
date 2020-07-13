@@ -1,0 +1,53 @@
+.box{
+    width: 99vw;
+    height: 50vw;
+    display: flex;
+}
+.box1{
+    width: 24vw;
+    height: 70vw;
+    background-color:#bfa;
+    /* display: flex; */
+}
+.box2{
+    width: 50vw;
+    height: 70vw;
+    background-color:#fff
+
+}
+.box3{
+    width: 24vw;
+    height: 70vw;
+    background-color:#bfa;
+    /* display: flex; */
+}
+.img1{
+    width: 50vw;
+    height: 70vw;
+}
+.nav{
+    width: 96vw;
+    height: 48px;
+    line-height: 48px;
+    background-color: rgb(16, 106, 190);
+    margin: 10px auto;
+    display: flex;
+    position: fixed;
+    left:1;
+    top:0;
+}
+.nav li{
+    flex-grow: 1;
+}
+.nav a{
+    padding: 0 10px;
+    display: block;
+    text-decoration: none;
+    color:#eee;
+    font-size: 18px;
+    text-align: center;
+}
+.nav a:hover{
+    background-color: #3f3f3f;
+    color: #e8e7e3;
+}
